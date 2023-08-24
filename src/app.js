@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.status(200).send('Curso de Node')
 });
 
-app.get('/',(req, res) => {
+app.get('/livros',(req, res) => {
     res.status(200).json(livros)
 })
 
